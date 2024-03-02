@@ -1,178 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="author"
+            content="alin"
+            name="description"
+            content="This page contains all the things I am learning how to create as I learn html."
+        />
+        <title>my first web page</title>
+        <link rel="icon" href="html5.png" type="image/x-icon" />
+        <link rel="stylesheet" href="main.css" ; type="text/css" />
+    </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="author" content="alin"
-    name="description" content="This page contains all the things I am learning how to create as I learn html.">
-   <title>my first web page</title>
-   <link rel="icon" href="html5.png" type="image/x-icon">
-   <link rel="stylesheet" href="main.css"; type="text/css">
-  
-</head>
+    <body>
+        <header>
+            <h1>My Goals for the Year</h1>
 
-<body>
-  <header>
-    <h1>My Goals for the Year</h1>
+            <hr />
 
-    <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#html">Lear HTML</a>
+                    </li>
+                    <li>
+                        <a href="#vacation">Planning a Vacation</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <nav>
-     <ul>
-         <li>
-            <a href="#html">Lear HTML</a>
-         </li>
-         <li>
-          <a href="#vacation">Planning a Vacation</a>
-         </li>
-         <li>
-          <a href="#contact">Contact me</a>
-         </li>
-     </ul>
-    </nav>
-  </header>
+        <hr />
 
-    <hr>
+        <section id="html">
+            <h2>i m ready to learn HTML</h2>
+            <p>this is my first page.</p>
+            <img src="img/html poza.png" alt="HTML 5 logo" />
 
-<section id="html">
+            <h3>My daily schedule</h3>
+            <p>Let me tell you how:</p>
+            <ol>
+                <li>... i lear more about web dev.</li>
+                <li>... i plan out my schedule.</li>
+                <li>
+                    <span>...I use resources from</span>
+                    <abbr title="Mozilla Developer Network">
+                        <a href="https://developer.mozilla.org/en-US/">MDN</a>
+                    </abbr>
+                </li>
+            </ol>
+            <aside>
+                <details>
+                    <summary>Guess the number of hours I code per day</summary>
+                    <p>
+                        I start at <time datetime="08:00">8 am</time> and I
+                        write code for
+                        <time datetime="PT3H">3 hours</time> every morning.
+                    </p>
+                </details>
+            </aside>
+            <br />
+            <table>
+                <caption>
+                    My Daily Schedule
+                </caption>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="08:00">8am</time>-<time datetime="11:00"
+                            >11am</time
+                        >
+                    </td>
+                    <td>Write code</td>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="11:00">11am</time>-<time
+                            datetime="12:00"
+                            >12am</time
+                        >
+                    </td>
+                    <td>Eat lunch</td>
+                </tr>
+                <tr>
+                    <td>
+                        <time datetime="12:00">12pm</time>-<time
+                            datetime="17:00"
+                            >5pm</time
+                        >
+                    </td>
+                    <td>Study for school</td>
+                </tr>
+            </table>
+        </section>
+        <hr />
 
-    <h2>i m ready to learn HTML</h2>
-    <P>this is my first page.</P>
-    <img src="img/html poza.png" alt="HTML 5 logo">
+        <section id="vacation">
+            <h2>i m also planning a vacation.</h2>
+            <p>I've been working hard and <em> really need a getaway.</em></p>
+            <p>I live in romania so I want visit a beach.</p>
 
-    <h3>My daily schedule</h3>
-    <P>Let me tell you how:</p>
-    <ol>
-      <li>... i lear more about web dev.</li>
-      <li>... i plan out my schedule.</li>
-      <li>
-        <span>...I use resources from</span> 
-        <abbr title="Mozilla Developer Network">
-        <a href="https://developer.mozilla.org/en-US/">MDN</a>
-      </abbr>
-    </li>
-    </ol>
-     <aside>
-      <details>
-        <summary>Guess the number of hours I code per day</summary>
-         <p>
-         I start at <time datetime="08:00">8 am</time>  and I write code for <time datetime="PT3H">3 hours</time> every morning.
-         </p>
-       </details>
-    </aside>
-    <br>
-    <table>
-      <caption>My Daily Schedule</caption>
-      <tr>
-        <th>Time</th>
-        <th>Activity</th>
-      </tr>
-      <tr>
-        <td>
-          <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
-        </td>
-        <td>Write code</td>
-      </tr>
-      <tr>
-        <td>
-          <time datetime="11:00">11am</time>-<time datetime="12:00">12am</time>
-        </td>
-        <td>Eat lunch</td>
-      </tr>
-      <tr>
-        <td>
-          <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
-        </td>
-        <td>Study for school</td>
-      </tr>
-    </table>
-   </section>
-    <hr>
+            <h3>Place I'd Like to Visit</h3>
+            <ul>
+                <li>
+                    <p>
+                        I've <strong>heard good things</strong> about the
+                        Caribbean.
+                    </p>
+                </li>
+                <li>
+                    <p>I've heard good things about going here:</p>
+                    <address>
+                        Margaritaville Island Reserve Riviera Cancún<br />
+                        Bahia Petempich Puerto Morelos, Mexico<br />
+                        Colonia Morelos, México 77580
+                    </address>
+                </li>
+            </ul>
+            <h3>Places I Want to Avoid</h3>
+            <dl>
+                <dt>North Pole</dt>
+                <img src="img/north pole.jpg" alt="North pole" />
+                <dd>I hear this is <strong>cold</strong>!</dd>
 
-    <section id="vacation">
-    <h2>i m also planning a vacation.</h2>
-    <P>I've been working hard and <em> really need a getaway.</em> </P>
-    <P>I live in romania so I want visit a beach.</P>
+                <dt>South Pole</dt>
+                <dd>This is also cold.</dd>
 
-    <h3>Place I'd Like to Visit</h3>
-    <ul>
-    <li><P>I've <strong>heard good things</strong> about the Caribbean.</P></li>
-    <li><p>I've heard good things about going here:</p>
-    <address>
-      Margaritaville Island Reserve Riviera Cancún<br>
-Bahia Petempich Puerto Morelos, Mexico<br>
-Colonia Morelos, México 77580
-    </address>
-  </li>
-    </ul>
-    <h3>Places I Want to Avoid</h3>
-<dl>
-<dt>North Pole</dt>
-<img src="img/north pole.jpg" alt="North pole">
-<dd>I hear this is <strong>cold</strong>!</dd>
+                <dt>Mountain Tops</dt>
+                <img src="img/varf munte.jpg" alt="Mountain Tops" />
+                <dd>These are also cold.</dd>
+            </dl>
+        </section>
 
-<dt>South Pole</dt>
-<dd> This is also cold.</dd>
+        <hr />
 
-<dt>Mountain Tops</dt>
-<img src="img/varf munte.jpg" alt="Mountain Tops">
-<dd>These are also cold.</dd>
-</dl>
-</section id="vacation">
+        <article id="contact">
+            <h2>Contact me</h2>
+            <p>I'd really like to hear from you!</p>
 
-<hr>
+            <form action="https://httpbin.org/get" method="get">
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input
+                        type="text"
+                        name="firstName"
+                        id="firstName"
+                        placeholder="Gigel"
+                        autocomplete="on"
+                        required
+                        autofocus
+                    />
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input
+                        type="text"
+                        name="lastName"
+                        id="lastName"
+                        placeholder="Pomelnic"
+                        autocomplete="on"
+                        required
+                        autofocus
+                    />
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        placeholder="5555555555"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                        required
+                    />
+                </p>
+                <section>
+                    <br />
+                    <fieldset>
+                        <legend>What is your favorite food?</legend>
+                        <p>
+                            <input
+                                type="radio"
+                                name="food"
+                                id="tacos"
+                                value="tacos"
+                            />
+                            <label for="tacos">Tacos</label>
+                        </p>
+                        <p>
+                            <input
+                                type="radio"
+                                name="food"
+                                id="pizza"
+                                value="pizza"
+                            />
+                            <label for="pizza">Pizza</label>
+                        </p>
+                        <p>
+                            <input
+                                type="radio"
+                                name="food"
+                                id="other"
+                                value="other"
+                            />
+                            <label for="other">Other</label>
+                        </p>
+                    </fieldset>
+                </section>
+            </form>
+        </article>
 
-<article id="contact">
-<h2>Contact me</h2>
-<p>I'd really like to hear from you!</p>
-
-   <form action="https://httpbin.org/get"
-method="get">
-  <p>
-      <label for="firstName">First Name:</label>
-      <input type="text" name="firstName" id="firstName" placeholder="Gigel"
-      autocomplete="on" required autofocus>
-  </p>
-  <p>
-      <label for="lastName">Last Name:</label>
-      <input type="text" name="lastName" id="lastName" placeholder="Pomelnic"
-      autocomplete="on" required autofocus>
-  </p>
-  <p>
-  <label for="phone">Phone:</label>
-<input type="tel" name="phone" id="phone"
-placeholder="5555555555"
-pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-required>
-  </p>
-<section>
-  <br>
-    <fieldset>
-    <legend>What is your favorite food?</legend>
-  <p>
-    <input type="radio" name="food" id="tacos" value="tacos">
-     <label for="tacos">Tacos</label>
-  </p>
-  <p>
-    <input type="radio" name="food" id="pizza" value="pizza">
-     <label for="pizza">Pizza</label>
-  </p>
-  <p>
-    <input type="radio" name="food" id="other" value="other">
-     <label for="other">Other</label>
-  </p>
-    </fieldset>
-</section>
-   </form>
-</article>
-
-<hr>
-&lt;&lt;&lt; &copy; <a href="about.html">Alin</a>  &gt; &gt; &gt;
-<p>
-  <a href="#">Back to Top</a>
-</p>
-
-</body>
-
- </html> 
- 
+        <hr />
+        &lt;&lt;&lt; &copy; <a href="about.html">Alin</a> &gt; &gt; &gt;
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </body>
+</html>
